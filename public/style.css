@@ -1,0 +1,11 @@
+.field {
+  width: 16px;
+  height: 16px;
+  background-color: #ccc;
+}
+.field[hassnake="true"] {
+  background-color: #333;
+}
+.field[hasegg="true"] {
+  background-color: red;
+}
