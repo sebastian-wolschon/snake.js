@@ -1,0 +1,26 @@
+body {
+  background: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.playArea {
+  margin: auto;
+}
+
+.field {
+  width: 20px;
+  height: 20px;
+  background: #ccc;
+  border-radius: 2px;
+}
+.field[hassnake="true"] {
+  background-color: green;
+}
+.field[hasegg="true"] {
+  background-color: rgb(148, 111, 11);
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 40%;
+  border-top-left-radius: 50% 60%;
+  border-top-right-radius: 50% 60%;
+}
